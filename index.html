@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+<!-- stylesheet -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+<!-- slider-css -->
+	<link rel="stylesheet" href="lightslider.css">
+<!-- icon -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- slider-jQuery -->
+	<script src="lightslider.js"></script>
+<!-- script -->
+	<script src="index.js"></script>
+</head>
+<body>
+
+	<!-- nav ----------------------------------------------------------------------------->
+	<nav>
+		<!-- social-link-and-phone-number -->
+		<div class="social-call">
+			<!-- social-links -->
+			<div class="social">
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+			<!-- phone-number -->
+			<div class="phone">
+				<span>Call +123456789</span>
+			</div>
+		</div>
+		<!-- menu-bar -->
+		<div class="navigation">
+			<!-- logo -->
+			<a href="#" class="logo">
+				<img src="images/logo.png">
+			</a>
+			<!-- menu.icon -->
+			<div class="toggle">
+				
+			</div>
+
+			<!-- menu -->
+			<ul class="menu">
+				<li><a href="#">ホーム</a></li>
+				<li><a href="#">メンズ</a>
+				<!-- sale-lable -->
+					<span class="sale-lable">Sale</span>
+				</li>
+				<li><a href="#">レーディス</a></li>
+				<li><a href="#">キッズ</a></li>
+				<li><a href="#">ショップ</a></li>
+			</ul>
+			<!-- right-menu -->
+			<div class="right-menu">
+				<!-- search -->
+				<a href="javascript:void(0);" class="search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</a>
+				<!-- user -->
+				<a href="javascript:void(0);" class="user">
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</a>
+				<!-- cart -->
+				<a href="#">
+					<i class="fa fa-shopping-cart" aria-hidden="true">
+						<!-- number-of-product-in-cart -->
+						<class class="num-cart-product">0</class>
+					</i>			
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- search-bar ---------------------------------------------------------------------->
+	<div class="search-bar">
+		<!-- search-input -->
+		<div class="search-input">
+			<!-- input -->
+			<input type="text" placeholder="キーワード"/>
+			<!-- cancel-bt -->
+			<a href="javascript:void(0);" class="search-cancel">
+				<i class="fa fa-times"></i>
+			</a>
+		</div>
+	</div>
+
+	<!-- login-andsign-up-form ------------------------------------------------------------>
+	<div class="form">
+		<!-- login -->
+		<div class="login-form">
+			<!-- cancel-btn -->
+			<a href="javascript:void(0);" class="form-cancel">
+				<i class="fa fa-times"></i>
+			</a>
+			<!-- heading -->
+			<strong>ログイン</strong>
+			<!-- inputs -->
+			<form>
+				<input type="email" placeholder="メールアドレス" name="email" required>
+				<input type="password" placeholder="パスワード" name="password" required>
+				<!-- submit-btn --><input type="submit" value="Log In">
+				
+			</form>
+			<!-- forget-and-sign-up-btn -->
+			<div class="form-btns">
+				<a href="#" class="forget">パスワードを忘れた方?</a>
+				<a href="javascript:void(0);" class="sign-up-btn">アカウントの作成</a>
+			</div>	
+		</div>
+
+		<!-- Sign-up -->
+		<div class="sign-up-form">
+			<!-- cancel-btn -->
+			<a href="javascript:void(0);" class="form-cancel">
+				<i class="fa fa-times"></i>
+			</a>
+			<!-- heading -->
+			<strong>新規作成</strong>
+			<!-- inputs -->
+			<form>
+				<input type="text" placeholder="ユーザー名" name="username" required>
+				<input type="email" placeholder="メールアドレス" name="email" required>
+				<input type="password" placeholder="パスワード" name="password" required>
+				<!-- submit-btn -->
+				<input type="submit" value="Sign up">
+			</form>
+			<!-- forget-and-sign-up-btn -->
+			<div class="form-btns">
+				<a href="javascript:void(0);" class="already-acount">すでにアカウントをお持ちですか？</a>
+			</div>	
+		</div>
+	</div>
+
+	<!-- Full-slider ----------------------------------------------------------------------->
+	<ul id="adaptive" class="cs-hidden">
+	  <!-- box-1 ----------------------------------->
+	  <li class="item-a">
+	  		<!-- box -->
+			<div class="full-slider-box f-slide-1">
+				<!-- slier-text-container -->
+				<div class="slider-text-container">	
+					<div class="f-slider-text">
+						<span>夏物アイテム</span>
+						<strong>タイムセール<br/>最大<font> 10% OFF</font></strong>
+						<a href="#" class="f-slider-btn">今すぐに</a>
+					</div>
+				</div>	
+			</div>
+	  </li>
+	   <!-- box-2 ---------------------------------->
+	  <li class="item-a">
+	  		<!-- box -->
+			<div class="full-slider-box f-slide-2">
+				<!-- slier-text-container -->
+				<div class="slider-text-container">	
+					<div class="f-slider-text">
+						<span>夏物アイテム</span>
+						<strong>タイムセール<br/>最大<font> 10% OFF</font></strong>
+						<a href="#" class="f-slider-btn">今すぐに</a>
+					</div>
+				</div>	
+			</div>
+	  </li>
+	   <!-- box-3 ---------------------------------->
+	  <li class="item-a">
+	  		<!-- box -->
+			<div class="full-slider-box f-slide-3">
+				<!-- slier-text-container -->
+				<div class="slider-text-container">	
+					<div class="f-slider-text">
+						<span>夏物アイテム</span>
+						<strong>タイムセール<br/>最大<font> 10% OFF</font></strong>
+						<a href="#" class="f-slider-btn">今すぐに</a>
+					</div>
+				</div>	
+			</div>
+	  </li>
+	</ul>
+
+	<!-- Featured-Categories -------------------------------------------------------------------->
+	<div class="feature-heading">
+		<h2>人気商品</h2>
+	</div>
+	<!-- feature-box -->
+	<ul id="autoWidth" class="cs-hidden">
+	  <!-- feature-box1 --------------------------->
+	  <li class="item">
+		<div class="feature-box">
+			<a href="#">
+				<img src="images/feature_1.jpg">
+			</a>
+		</div>
+		<!-- feature-text1 -->
+		<span>アイテム1</span>
+	  </li>
+	  <!-- feature-box2 --------------------------->
+	  <li class="item">
+		<div class="feature-box">
+			<a href="#">
+				<img src="images/feature_2.jpg">
+			</a>
+		</div>
+		<!-- feature-text2 -->
+		<span>アイテム2</span>
+	  </li>
+	  <!-- feature-box3 --------------------------->
+	  <li class="item">
+		<div class="feature-box">
+			<a href="#">
+				<img src="images/feature_3.jpg">
+			</a>
+		</div>
+		<!-- feature-text3 -->
+		<span>アイテム3</span>
+	  </li>
+	  <!-- feature-box4 --------------------------->
+	  <li class="item">
+		<div class="feature-box">
+			<a href="#">
+				<img src="images/feature_4.jpg">
+			</a>
+		</div>
+		<!-- feature-text4 -->
+		<span>アイテム4</span>
+	  </li>
+	  <!-- feature-box5 --------------------------->
+	  <li class="item">
+		<div class="feature-box">
+			<a href="#">
+				<img src="images/feature_5.jpg">
+			</a>
+		</div>
+		<!-- feature-text5 -->
+		<span>アイテム5</span>
+	  </li>
+	  <!-- feature-box6 --------------------------->
+	  <li class="item">
+		<div class="feature-box">
+			<a href="#">
+				<img src="images/feature_6.jpg">
+			</a>
+		</div>
+		<!-- feature-text6 -->
+		<span>アイテム6</span>
+	  </li>
+	</ul>
+
+	<!-- new-arrival ---------------------------------------------------------------------------->
+	<section class="new-arrival">
+		<!-- heading -->
+		<div class="arrival-heading">
+			<strong>新入商品</strong>
+			<p>最近入庫した新商品</p>
+		</div>
+		<!-- proud-container ----------------------->
+		<div class="product-container">
+			<!-- product-box1 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-1.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム1</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box2 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-2.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム2</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box3 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-3.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム3</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box4 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-4.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム4</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box5 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-5.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム5</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box6 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-6.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム6</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box7 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-7.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム7</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box8 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-8.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム8</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- sale -------------------------------------------------------------------------------------->
+	<section class="sale">
+		<!-- sale-box1 -->
+		<div class="sale-box">
+			<!-- img -->
+			<img src="images/sale-1.jpg">
+		    <!-- text -->
+		    <a href="#">
+		    	<div class="sale-text">
+		    		<strong>タイムセール</strong>
+		    		<span>25%セール</span>
+		    	</div>
+		    </a>
+		</div>
+		<!-- sale-box2 -->
+		<div class="sale-box">
+			<!-- img -->
+			<img src="images/sale-2.jpg">
+		    <!-- text -->
+		    <a href="#">
+		    	<div class="sale-text">
+		    		<strong>タイムセール</strong>
+		    		<span>25%セール</span>
+		    	</div>
+		    </a>
+		</div>
+		<!-- sale-box3 -->
+		<div class="sale-box">
+			<!-- img -->
+			<img src="images/sale-3.jpg">
+		    <!-- text -->
+		    <a href="#">
+		    	<div class="sale-text">
+		    		<strong>セールタイム</strong>
+		    		<span>25%セール</span>
+		    	</div>
+		    </a>
+		</div>
+	</section>
+
+	<!-- new-arrival ---------------------------------------------------------------------------->
+	<section class="new-arrival">
+		<!-- heading -->
+		<div class="arrival-heading">
+			<strong>特集アイテム</strong>
+			<p>ファッションなアイテム</p>
+		</div>
+		<!-- proud-container ----------------------->
+		<div class="product-container">
+			<!-- product-box1 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-1.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム1</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box2 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-2.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム2</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box3 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-3.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム3</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box4 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-4.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム4</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box5 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-5.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム5</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box6 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-6.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム6</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box7 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-7.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム7</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+				<!-- product-box8 -->
+			<div class="product-box">
+				<!-- img -->
+				<div class="product-img">
+					<!-- add-cart -->
+					<a href="#" class="add-cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+					<img src="images/p-8.png">
+				</div>
+				<!-- details -->
+				<div class="product-details">
+					<a href="#" class="p-name">アイテム8</a>
+					<span class="p-price">￥1000</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- banner ------------------------------------------------------------------------------->
+	<div class="banner-box f-slide-3">
+		<!-- slier-text-container -->
+		<div class="banner-text-container">	
+			<div class="banner-text">
+				<span>夏物アイテム</span>
+				<strong>タイムセール<br/>最大<font> 10% OFF</font></strong>
+				<a href="#" class="f-slider-btn">今すぐに</a>
+			</div>
+		</div>	
+	</div>
+
+	<!-- services ----------------------------------------------------------------------------->
+	<section class="services">
+		<!-- services-box1 -->
+		<div class="services-box">
+			<i class="fa fa-truck" aria-hidden="true"></i>
+			<span>送料無料</span>
+			<p>すべての商品が無料で配送する</p>
+		</div>
+		<!-- services-box2 -->
+		<div class="services-box">
+			<i class="fa fa-headphones" aria-hidden="true"></i>
+			<span>年中無休</span>
+			<p>24時間のサポート</p>
+		</div>
+		<!-- services-box3 -->
+		<div class="services-box">
+			<i class="fa fa-refresh" aria-hidden="true"></i>
+			<span>100%の返金</span>
+			<p>30日以内の返品は</p>
+		</div>
+	</section>
+
+	<!-- footer ------------------------------------------------------------------------------>
+	<footer>
+		<!-- copyright -->
+		<span class="copyright">
+			LCY
+		</span>
+		<!-- subscribe -->
+		<div class="subscribe">
+			<form >
+				<input type="email" placeholder="メールアドレス" required>
+				<input type="submit" value="Subscribe">
+			</form>
+		</div>
+	</footer>
+</body>
+</html>
